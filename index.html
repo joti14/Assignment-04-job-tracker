@@ -26,7 +26,25 @@
     </style>
 </head>
 <body>
-    
+    <header class="w-[80%] mx-auto bg-base-100 space-y-6 sticky top-0 z-10 pt-10">
+        <h1 class="text-4xl font-bold text-[#002C5C]">Job Application Tracker</h1>
+        <div class="grid grid-cols-3 gap-6">
+            <div class="shadow p-5 rounded-md">
+                <p class="font-medium">Total</p>
+                <h3 id="total-job" class="text-2xl font-bold text-[#002C5C]">8</h3>
+            </div>
+            <div class="shadow p-5 rounded-md">
+                <p class="font-medium">Interview</p>
+                <h3 id="total-interview" class="text-2xl font-bold text-[#10B981]">0</h3>
+            </div>
+            <div class="shadow p-5 rounded-md">
+                <p class="font-medium">Rejected</p>
+                <h3 id="total-rejected" class="text-2xl font-bold text-[#EF4444]">0</h3>
+            </div>
+
+        </div>
+        <hr class="text-[#E6E7E9] border-0 border-t-2 mb-6">
+    </header>
 
     <script src="./script/index.js"></script>
 </body>
